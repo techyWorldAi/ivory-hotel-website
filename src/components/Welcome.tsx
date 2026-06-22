@@ -50,7 +50,7 @@ export default function Welcome() {
         <div className="order-1 lg:order-2 relative">
           <div className="relative rounded-[3rem] overflow-hidden aspect-[4/5] lg:aspect-[3/4]">
             <img
-              src="/images/lobby-close.webp"
+              src="images/lobby-close.webp"
               alt="The Ivory Hotel lounge: cream armchairs with walnut frames around a low table, beneath a curved charcoal wall hung with woven baskets"
               className="w-full h-full object-cover"
             />

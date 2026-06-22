@@ -12,7 +12,7 @@ const ROOMS: Room[] = [
     blurb:
       'A leather-panelled headboard, full air conditioning and a marble-tiled bathroom — built for a still night after a long day in the city.',
     amenities: ['King bed', 'Air conditioning', 'Wardrobe', 'En-suite bathroom'],
-    image: '/images/room-king.webp',
+    image: 'images/room-king.webp',
     alt: 'Deluxe King room with leather headboard, walnut wardrobe and grey marble flooring',
   },
   {
@@ -20,7 +20,7 @@ const ROOMS: Room[] = [
     blurb:
       'Two full beds beneath soft reading lights, finished in the same warm palette as the rest of the house. Suited to colleagues or family travelling together.',
     amenities: ['Two full beds', 'Air conditioning', 'Reading lights', 'En-suite bathroom'],
-    image: '/images/room-twin.webp',
+    image: 'images/room-twin.webp',
     alt: 'Twin Comfort room with two beds, white linens and wall-mounted air conditioning',
   },
   {
@@ -28,7 +28,7 @@ const ROOMS: Room[] = [
     blurb:
       'A wider footprint with a private desk and television corner, opening onto a hallway finished in dark slate and warm timber.',
     amenities: ['Work desk', 'Television', 'Air conditioning', 'Slate flooring'],
-    image: '/images/room-hallway.webp',
+    image: 'images/room-hallway.webp',
     alt: 'Executive Suite entrance hallway in dark slate tile, leading to a desk and television',
   },
 ]
@@ -75,7 +75,7 @@ export default function Rooms() {
         <div className="mt-16 grid sm:grid-cols-2 gap-6 items-center bg-charcoal rounded-3xl overflow-hidden">
           <div className="aspect-[5/4] sm:aspect-auto sm:h-full">
             <img
-              src="/images/bathroom.webp"
+              src="images/bathroom.webp"
               alt="En-suite bathroom finished in cream tile with black flooring, a pedestal sink and rainfall shower"
               className="w-full h-full object-cover"
             />

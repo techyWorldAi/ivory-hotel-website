@@ -14,11 +14,11 @@ export default function Hero() {
       className="relative w-full overflow-hidden bg-black pb-24 sm:pb-28"
     >
       <div className="relative h-[100vh] min-h-[680px] w-full overflow-hidden">
-        <img
+        {/* <img
           src="/images/hero-night-sign.webp"
           alt="The Ivory Hotel illuminated sign at night, with a crescent moon mark above the name"
           className="absolute inset-0 w-full h-full object-cover object-top animate-ken-burns"
-        />
+        /> */}
         {/* Layered gradients: darker at the edges for legibility, warm glow near the sign */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/95 via-black/65 to-black" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-charcoal/60" />

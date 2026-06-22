@@ -24,7 +24,7 @@ export default function Restaurant() {
           <div>
             <div className="overflow-hidden rounded-2xl aspect-[4/3] mb-10">
               <img
-                src="/images/restaurant-dining.webp"
+                src="images/restaurant-dining.webp"
                 alt="Black Pepper Restaurant dining room with cane-back chairs, light timber flooring and tall street-facing windows"
                 className="w-full h-full object-cover"
               />

@@ -1,28 +1,28 @@
 const IMAGES: { src: string; alt: string; span?: string }[] = [
   {
-    src: '/images/exterior-day.webp',
+    src: 'images/exterior-day.webp',
     alt: 'The Ivory Hotel building exterior by day, black and ivory facade with the Black Pepper Restaurant sign',
     span: 'sm:row-span-2',
   },
   {
-    src: '/images/walkway.webp',
+    src: 'images/walkway.webp',
     alt: 'Covered side walkway leading to the hotel entrance, lined with potted snake plants',
   },
   {
-    src: '/images/lobby-glass.webp',
+    src: 'images/lobby-glass.webp',
     alt: 'Lobby seating area seen through the glass entrance doors',
   },
   {
-    src: '/images/lobby-wide.webp',
+    src: 'images/lobby-wide.webp',
     alt: 'Wide view of the lounge with armchairs, a monstera plant and a curved charcoal feature wall',
     span: 'sm:row-span-2',
   },
   {
-    src: '/images/exterior-angle.webp',
+    src: 'images/exterior-angle.webp',
     alt: 'Angled street view of The Ivory Hotel facade and gated entrance',
   },
   {
-    src: '/images/restaurant-menu.webp',
+    src: 'images/restaurant-menu.webp',
     alt: 'Black Pepper Restaurant menu board listing mains and specials',
   },
 ]
