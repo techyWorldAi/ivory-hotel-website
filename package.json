@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-    "homepage": "https://github.io",
+  "homepage": "https://techyworldai.github.io/ivory-hotel-website",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
