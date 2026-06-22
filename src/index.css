@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Signature motif: a thin crescent arc, echoing the hotel's moon mark
+   and the curved charcoal accent wall seen throughout the lobby. */
+.crescent-divider {
+  position: relative;
+  height: 1px;
+}
+.crescent-divider::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  top: -32px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  -webkit-mask: linear-gradient(to bottom, transparent 50%, black 50%);
+  mask: linear-gradient(to bottom, transparent 50%, black 50%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes ken-burns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.12) translate(-1%, -1%);
+  }
+}
+.animate-ken-burns {
+  animation: ken-burns 22s ease-out forwards;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes scroll-cue {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+.animate-scroll-cue {
+  animation: scroll-cue 2.2s ease-in-out infinite;
+}
+
+/* Focus visibility kept deliberate and visible, never suppressed */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #B68C4E;
+  outline-offset: 3px;
+}
